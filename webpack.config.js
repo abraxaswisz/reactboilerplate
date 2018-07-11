@@ -18,6 +18,9 @@ module.exports = {
       }
     ]
   },
+  devServer: {
+    stats: "minimal"
+  },
   plugins: [
     new HtmlWebPackPlugin({
       template: "./src/index.html"
